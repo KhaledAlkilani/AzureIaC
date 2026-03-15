@@ -1,0 +1,36 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+
+# .NET Core
+project.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Deployment artifacts
+deploy.zip
+publish/
+
+# Publish output
+publish/
